@@ -111,14 +111,14 @@ export default function Home() {
 
       <div className="flex justify-center mt-4 gap-4">
         <button
-          className="bg-blue-500 text-white p-2"
+          className="bg-red-500 text-white p-2"
           onClick={voltarPagina}
           disabled={!info || !info.prev}
         >
           Página Anterior
         </button>
         <button
-          className="bg-blue-500 text-white p-2"
+          className="bg-green-500 text-white p-2"
           onClick={avancarPagina}
           disabled={!info || !info.next}
         >
