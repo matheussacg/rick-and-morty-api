@@ -100,6 +100,7 @@ export default function Home() {
         {personagensFiltrados.map((personagem) => (
           <Card
             key={personagem.id}
+            id={personagem.id}
             image={`https://rickandmortyapi.com/api/character/avatar/${personagem.id}.jpeg`}
             name={personagem.name}
             species={personagem.species}
